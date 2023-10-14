@@ -12,10 +12,10 @@ if (xp <= 1000) {
 }else if (xp > 2000 && xp <= 5000) {
     grau = "PRATA"
     console.log("O Herói de nome "+nome+"" ,"está no nível de "+grau+"" ,"Com um total de "+xp+"", "xp!!!"); 
-}if (xp > 6000 && xp <= 7000) {
+}else if (xp > 6000 && xp <= 7000) {
     grau = "OURO"
     console.log("O Herói de nome "+nome+"" ,"está no nível de "+grau+"" ,"Com um total de "+xp+"", "xp!!!"); 
-}if (xp > 7000 && xp <= 8000) {
+}else if (xp > 7000 && xp <= 8000) {
     grau = "PLATINA"
     console.log("O Herói de nome "+nome+"" ,"está no nível de "+grau+"" ,"Com um total de "+xp+"", "xp!!!"); 
 }else if (xp > 8000 && xp <= 9000) {
@@ -24,7 +24,7 @@ if (xp <= 1000) {
 }else if (xp > 9000 && xp <= 10000) {
     grau = "IMORTAL"
     console.log("O Herói de nome "+nome+"" ,"está no nível de "+grau+"" ,"Com um total de "+xp+"", "xp!!1!"); 
-}else if (xp > 10000) {
+}else (xp > 10000) {
     grau = "RADIANTE"
     console.log("O Herói de nome "+nome+"" ,"está no nível de "+grau+"" ,"Com um total de "+xp+"", "xp!!1!"); 
 }
